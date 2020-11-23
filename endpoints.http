@@ -1,0 +1,5 @@
+@hostname = http://127.0.0.1:5000
+
+## Empresa
+GET {{hostname}}/api/empresas/medicao/SPASKCENTR101 HTTP/1.1
+content-type: application/json
